@@ -1,0 +1,38 @@
+h1 {
+	color: lightskyblue;
+	font-size: 2Opx;
+
+}
+p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+ul.menu_top li{
+    float: center;
+}
+html{
+    font-size: 20px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+	font-family :"Times New Roman";
+	background-color: lightyellow;
+	padding-left: 6em;
+	padding-right: 6em;
+}
+.box {
+    display: flex;
+    height: 9rem;
+    gap: 2rem;
+}
+
+.box > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.box > div:hover {
+    flex: 5;
+}
